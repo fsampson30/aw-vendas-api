@@ -21,8 +21,4 @@ public class ClientesResource {
         return clientesRepository.findAll();
     }
 
-    @GetMapping
-    public Optional<Cliente> buscar(@PathVariable Long clienteId){
-        return clientesRepository.findById(clienteId);
-    }
 }

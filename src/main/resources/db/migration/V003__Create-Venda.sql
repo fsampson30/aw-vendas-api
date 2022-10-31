@@ -2,6 +2,7 @@ create table venda (
   id bigint not null auto_increment,
   cliente_id bigint not null,
   frete decimal(10,2) not null,
+  total decimal(10,2) not null,
   cadastro datetime not null,
 
   primary key (id)
